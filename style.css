@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(182, 168, 146);
+  }
+  
+  h2 {
+    color:rgb(63, 62, 62)
+  }
+
+  div {
+    background-color: darkorange;
+    border-style: solid;
+    border-color:darkorange;
+    border-radius: 10px;
+  }
+
+  .shadow-text {
+    text-shadow:black 1px 1px;
+  }
+
+  .hov {
+      background-color: darkorange;
+      margin-bottom: 20px;
+  }
+
+  .hov:hover {
+      background-color: tomato;
+  }
+
+  .every-odd li:nth-child(odd) {
+      background-color:tomato;
+      border-radius: 10px;
+  }
+
+  table {
+     border-collapse: collapse; 
+     border-radius: 10px;
+     width: 100%;
+  }
+
+  th,td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid rgb(63, 62, 62);
+  }
+
+  tr:hover {
+     background-color: gray; 
+  }
+  
+  #box-model {
+    padding: 20px;
+    border-style: solid tomato;
+    border-width: 3px;
+    margin: 30px;
+    background-color: darkorange;
+    border-radius: 10px;
+  }
+
+  input {
+      background-color: tomato;
+      border-radius: 10px;
+  }
+
+
+  #example {
+    background-color: darkorange;
+    border-style: solid;
+    border-width: 3px;
+    border-color:darkorange;
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+  }
